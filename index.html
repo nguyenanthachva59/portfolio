@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/avt-fotor.png" type="image/png">
+    <title>𝓝𝓐𝓣</title>
+    <meta name="description" content="Chào mừng đến với portfolio của Thachdev. Tôi là một nhà phát triển web đam mê, chuyên xây dựng các trải nghiệm kỹ thuật số hiện đại và hiệu suất cao.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script> 
+</head>
+<body class="bg-white dark:bg-dark-bg text-gray-900 dark:text-gray-100">
+
+    <header class="sticky top-0 z-50 w-full backdrop-blur-lg bg-white/70 dark:bg-dark-bg/70 border-b border-gray-200 dark:border-gray-700">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <a href="#" class="text-2xl font-bold text-primary">𝓝𝓐𝓣</a>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="font-medium py-2 px-4 rounded-lg hover:bg-primary hover:text-white transition-all duration-300">Giới thiệu</a></li>
+                    <li><a href="#skills" class="font-medium py-2 px-4 rounded-lg hover:bg-primary hover:text-white transition-all duration-300">Kỹ năng</a></li>
+                    <li><a href="#projects" class="font-medium py-2 px-4 rounded-lg hover:bg-primary hover:text-white transition-all duration-300">Dự án</a></li>
+                    <li><a href="#contact" class="font-medium py-2 px-4 rounded-lg hover:bg-primary hover:text-white transition-all duration-300">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-16">
+
+        <section id="hero" class="text-center min-h-[60vh] flex flex-col justify-center items-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4">
+                Chào bạn, tôi là <span class="text-primary">Nguyễn An Thạch</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-3xl mb-8">
+                Là sinh viên năm 4 ngành công nghệ thông tin với định hướng chuyên sâu về <span class="font-semibold text-white">phát triển web</span> .
+            </p>
+            <div class="flex space-x-4">
+                <a href="#projects" class="bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/80 transition-all duration-300 transform hover:scale-105">
+                    Xem dự án
+                </a>
+                <a href="#contact" class="bg-gray-200 dark:bg-dark-card text-gray-900 dark:text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-300">
+                    Liên hệ tôi
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+                
+                <div class="md:w-1/3 w-full flex-shrink-0 flex justify-center">
+                    <div class="w-64 h-64 md:w-80 md:h-80 bg-gray-300 dark:bg-gray-700 rounded-full shadow-2xl flex items-center justify-center text-gray-500 overflow-hidden">
+                        <img src="images/avt.png" alt="Ảnh đại diện Nguyễn An Thạch" class="w-full h-full object-cover">
+                    </div>
+                </div>
+
+                <div class="md:w-2/3 w-full text-center md:text-left">
+                    <h2 class="text-4xl font-bold mb-4">Giới thiệu về tôi</h2>
+                    <h3 class="text-2xl font-semibold text-primary mb-6">Sinh viên năm 4 chuyên ngành CNTT - Đại Học Giao Thông Vận Tải</h3>
+                    
+                    <p class="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                        Là sinh viên năm 4 IT, tôi tập trung vào việc phát triển các trải nghiệm web hiện đại. Mặc dù tôi tập trung chính vào các công nghệ <strong>Web</strong>, tôi cũng có nền tảng về <strong class="text-white">Machine Learning</strong> và có kinh nghiệm triển khai dự án từ A-Z bằng các công cụ DevOps như <strong class="text-white">Docker</strong> và <strong class="text-white">Git</strong>.
+                        Đồng thời, tôi có tìm hiểu về các giải pháp tự động hóa quy trình (workflow automation) và tích hợp hệ thống qua các nền tảng "low-code" như <strong>n8n</strong>.
+                    </p>
+
+                    <p class="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+                        Tôi luôn tìm kiếm cơ hội để học hỏi công nghệ mới và áp dụng chúng để giải quyết các bài toán thực tế.
+                    </p>
+                    
+                    <div class="flex justify-center md:justify-start space-x-4">
+                        <a href="#contact" class="bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/80 transition-all duration-300 transform hover:scale-105">
+                            Liên hệ tôi
+                        </a>
+                        <a href="#projects" class="bg-gray-200 dark:bg-dark-card text-gray-900 dark:text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-300">
+                            Xem dự án
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="py-24 bg-gray-50 dark:bg-dark-card rounded-2xl">
+            <h2 class="text-4xl font-bold text-center mb-12">Kỹ năng của tôi</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="bg-white dark:bg-dark-bg p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4 text-primary">Web Development</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm font-medium px-4 py-1 rounded-full">HTML</span>
+                        <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm font-medium px-4 py-1 rounded-full">CSS</span>
+                        <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm font-medium px-4 py-1 rounded-full">JavaScript</span>
+                        <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm font-medium px-4 py-1 rounded-full">Tailwind CSS</span>
+                        <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm font-medium px-4 py-1 rounded-full">Next.js</span>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-dark-bg p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4 text-primary">Machine Learning</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200 text-sm font-medium px-4 py-1 rounded-full">PyTorch</span>
+                        <span class="bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200 text-sm font-medium px-4 py-1 rounded-full">DeepLearning</span>
+                        <span class="bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200 text-sm font-medium px-4 py-1 rounded-full">Face Recognition</span>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-dark-bg p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4 text-primary">DevOps & Tools</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 text-sm font-medium px-4 py-1 rounded-full">Docker</span>
+                        <span class="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 text-sm font-medium px-4 py-1 rounded-full">Git & GitHub</span>
+                        <span class="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 text-sm font-medium px-4 py-1 rounded-full">PowerShell</span>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-dark-bg p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold mb-4 text-primary">Backend & Database</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200 text-sm font-medium px-4 py-1 rounded-full">Node.js</span>
+                        <span class="bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200 text-sm font-medium px-4 py-1 rounded-full">MySQL</span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="projects" class="py-24">
+            <h2 class="text-4xl font-bold text-center mb-12">Dự án nổi bật</h2>
+            <div class="flex flex-wrap justify-center gap-8">
+                
+                <div class="bg-gray-50 dark:bg-dark-card rounded-lg shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl w-full md:w-[45%] lg:w-[30%]"">
+                    <div class="w-full h-48 bg-gray-300 dark:bg-gray-700 flex items-center justify-center text-gray-500">
+                        <img src="images/bg.png" alt="Ảnh dự án Website Thương mại điện tử" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Website Quản Lý Sự Kiện</h3>
+                        <p class="text-gray-700 dark:text-gray-300 mb-4">
+                            Một ứng dụng web một trang (Single Page App) để xem, đặt vé và quản lý sự kiện. 
+                Tương tác với cơ sở dữ liệu thời gian thực (Firebase Firestore) và tự động gửi email xác nhận (EmailJS).
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs font-semibold bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full">FireBase</span>
+                            <span class="text-xs font-semibold bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 px-3 py-1 rounded-full">EmailJS</span>
+                            <span class="text-xs font-semibold bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200 px-3 py-1 rounded-full">HTML5</span>
+                            <span class="text-xs font-semibold bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200 px-3 py-1 rounded-full">CSS</span>
+                        </div>
+                        <a href="https://github.com/nguyenanthachva59/EV" target="_blank" class="font-medium text-primary hover:underline">Xem trên GitHub &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 dark:bg-dark-card rounded-lg shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl w-full md:w-[45%] lg:w-[30%]">
+                    <div class="w-full h-48 bg-gray-300 dark:bg-gray-700 flex items-center justify-center text-gray-500">
+                        <img src="images/LPR.png" alt="Ảnh dự án Website Thương mại điện tử" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Hệ thống nhận dạng biển số (LPR)</h3>
+                        <p class="text-gray-700 dark:text-gray-300 mb-4">
+                            Tham gia xây dựng và tùy chỉnh một hệ thống nhận dạng biển số xe tự động (License Plate Recognition) sử dụng các kỹ thuật xử lý ảnh.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs font-semibold bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 px-3 py-1 rounded-full">C#</span>
+                            <span class="text-xs font-semibold bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 px-3 py-1 rounded-full">.NET</span>
+                            <span class="text-xs font-semibold bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 px-3 py-1 rounded-full">Computer Vision</span>
+                        </div>
+                        <a href="https://github.com/nguyenanthachva59/LPR" target="_blank" class="font-medium text-primary hover:underline">Xem trên GitHub &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 text-center">
+            <h2 class="text-4xl font-bold mb-4">Liên hệ với tôi</h2>
+            <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">
+                Tôi luôn sẵn sàng trao đổi về các cơ hội mới. Hãy kết nối với tôi!
+            </p>
+            <div class="flex justify-center space-x-6">
+                <a href="mailto:thachneo59@gmail.com" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300 text-lg font-medium ">Email</a>
+                <a href="https://github.com/nguyenanthachva59" target="_blank" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300 text-lg font-medium">GitHub</a>
+                <a href="https://www.linkedin.com/in/th%E1%BA%A1ch-nguy%E1%BB%85n-an-615232376/" target="_blank" class="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300 text-lg font-medium">LinkedIn</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-gray-200 dark:border-gray-700">
+        <div class="container mx-auto px-4 py-6 text-center text-gray-600 dark:text-gray-400">
+            © 2025𝒩𝒜𝒯
+        </div>
+    </footer>
+
+</body>
+</html>
